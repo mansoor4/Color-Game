@@ -1,0 +1,190 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(24, 22, 22);
+}
+#header
+{
+    text-align: center;
+    background-color: rgb(4, 74, 165);
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#header h3:last-child
+{
+    padding-bottom: 7px;
+}
+#header h3:first-child
+{
+    padding-top: 7px;
+}
+#navbar
+{
+    background-color: white;
+}
+#nav
+{
+    width:60%;
+    display: flex; 
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#nav li:nth-child(2)
+{
+    color: black;
+}
+#nav li
+{
+    list-style: none;
+    color: rgb(4, 74, 165);
+    font-weight: 700;
+    cursor: pointer;
+}
+#nav li:last-child
+{
+display: flex;
+}
+#nav li:last-child div
+{
+  padding-right: 3px;
+  padding-left: 3px;
+}
+#main
+{
+    width:60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#level
+{
+    width:80%;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+}
+#row1
+{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+#row1 div
+{
+    width:150px;
+    height:150px;
+    border-radius: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+#row2
+{
+     display: flex; 
+    width:100%;
+    justify-content: center;
+}
+#row2 div
+{
+    width:150px;
+    height:150px;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top:15px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+@media screen and (min-width:1200px)
+{
+    #nav
+    {
+        width:50%;
+    }
+}
+@media screen and (max-width:900px)
+{
+    #nav
+    {
+        width:80%;
+    }
+}
+@media screen and (max-width:830px)
+{
+    #main
+    {
+        width:100%;
+    }
+}
+@media screen and (max-width:713px)
+{
+    #nav
+    {
+        width:80%;
+    }
+    #level
+    {
+        width:100%;
+    }
+}
+
+@media screen and (max-width:530px)
+{
+    #nav
+    {
+        width:98%;
+    }
+    #level
+    {
+        width: 100%;
+    }
+    #row1 div,#row2 div
+    {
+        width:120px;
+        height:120px;
+    }
+}
+@media screen and (max-width:420px)
+{
+    #nav
+    {
+        width:99%;
+    }
+    #level
+    {
+        width: 100%;
+    }
+    #row1 div,#row2 div
+    {
+        width:110px;
+        height:110px;
+    }
+}
+@media screen and (max-width:398px)
+{
+    #row1,#row2
+    {
+        justify-content: space-evenly;
+    }
+    #row1 div,#row2 div
+    {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:370px)
+{
+    #row1,#row2
+    {
+        justify-content: space-evenly;
+    }
+    #row1 div,#row2 div
+    {
+        width:100px;
+        height:100px;
+        margin-left: 0;
+    }
+}
