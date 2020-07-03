@@ -18,6 +18,7 @@ var congrats=new Audio();
 var try_again=new Audio();
 congrats.src="congratulation.MP3";
 try_again.src="try_again.MP3"
+console.log("forking the consolr.log");
 function rgb()
 {
      r=Math.floor(Math.random()*254);
